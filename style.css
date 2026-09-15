@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    font-family: "Teko", sans-serif;
+}
+
+header {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    gap: 180px
+}
+
+.logo{
+    display: flex;
+    height: 48px;
+}
+.br {
+    display: flex;
+    color: white;
+    font-size: 15px;
+}
+.globo {
+    height: 25px;
+}
+.terra {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.energy {
+    color: rgb(0, 204, 0);
+}
+.escrita {
+    font-size: 20px;
+    color: rgb(194, 194, 194);
+}
+.texto {
+    flex-direction: column;
+    margin: 20px;
+    color: white;
+}
+
+.lata {
+    height: 336px;
+} 
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 60px;
+}
+
+.seta {
+    color: white;
+    font-size: 64px;
+}
+
+.nome {
+    color: dimgrey;
+    align-items: end;
+}
+
+@media (main-width:1024px){
+    header {
+        display: flex;
+        gap: 1000px;
+    }
+}
