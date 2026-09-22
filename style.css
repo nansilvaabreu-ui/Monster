@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    background-color: black;
+    font-family: 'Teko', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+
+header {
+    display: flex;
+    height: 100px;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    gap: 180px;
+}
+
+
+.logo {
+    display: flex;
+    height: 48px;
+}
+
+
+.menu {
+    display: flex;
+    gap: 10px;
+}
+
+
+.br {
+    color: white;
+}
+
+
+main {
+    display: flex;
+    margin-left: 23px;
+    margin-right: 23px;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.texto {
+    height: 196px;
+    width: 161px;
+}
+
+
+h1 {
+    font-size: 40px;
+    color: white;
+    line-height: 40px;
+}
+
+
+.energy {
+    color: limegreen;
+}
+
+
+.escrita {
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+.lata {
+    height: 336px;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+
+.setas {
+    display: flex;
+    color: white;
+    font-size: 64px;
+    gap: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    height: 50px;
+}
+
+
+.nome {
+    display: flex;
+    color: dimgrey;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.promocao {
+    display: none;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+
+.fundo {
+    display: none;
+    position: absolute;
+    margin-top: 50px;
+    opacity: 10%;
+    height: 775px;
+    max-height: 100vh;
+    max-width: 100%;
+    object-fit: contain;
+    z-index: -1;
+}
+
+
+.escrita2 {
+    display: none;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 184px;
+    width: 200px;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+
+.simbolo {
+    height: 96px;
+}
+
+
+footer {
+    height: 100px;
+    flex-shrink: 0;
+    margin-top: auto;
+}
+
+
+/* TELAS COM 1024px OU MAIS */
+
+
+@media (min-width: 1024px) {
+
+
+    body {
+        min-height: 100vh;
+        width: 100%;
+        flex-direction: column;
+    }
+
+
+    header {
+        gap: 400px;
+        margin-bottom: 80px;
+    }
+
+
+    .promocao {
+        display: flex;
+    }
+
+
+    .fundo {
+        display: block;
+    }
+
+
+    .texto {
+        width: 350px;
+    }
+
+
+    h1 {
+        font-size: 100px;
+        line-height: 85px;
+    }
+
+
+    .escrita {
+        font-size: 32px;
+    }
+
+
+    .lata {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+    }
+
+
+    .escrita2 {
+        display: flex;
+    }
+
+
+    main {
+        gap: 580px;
+        justify-content: center;
+        align-items: center;
+        height: 390px;
+        flex-shrink: 0;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+
+    .setas {
+        gap: 700px;
+        margin-top: 20px;
+        height: 50px;
+    }
+
+
+    footer {
+        margin-top: auto;
+    }
+}
