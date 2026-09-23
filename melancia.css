@@ -46,7 +46,7 @@ main {
     display: flex;
     margin-left: 23px;
     margin-right: 23px;
-    margin-top: 30px;
+    margin-top: auto;
     justify-content: center;
     align-items: center;
 }
